@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27b21b33-3257-4f86-8937-7aa86732c12a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/practice/src/leetcode/Q11BruteForce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/inheritence/ClassE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/inheritence/ClassF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/leetcode/Q11BruteForce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/leetcodeTree/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/leetcodeTree/TreeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/leetcodeTree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/test/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/test/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/test/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/bin/test/Practice1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/src/inheritence/ClassE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/src/inheritence/ClassF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/src/leetcode/Q11BruteForce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/src/leetcodeTree/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/src/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/src/test/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0practice/src/test/Practice1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/array/JuneTwelve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/array/JuneTwenty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/array/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/juneTwentyTwo/JuneTwentyTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/mayNineteen/MayNineteen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/mayThirtyOne/MayThirtyOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/mayTwentyEight/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/mayTwentyFive/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/mayTwentySix/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/searching/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/searching/LinearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/sheet1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/sheet2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/sheet3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/sorting/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/sorting/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/sorting/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/sorting/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/sorting/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/twoDArrayPart1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/twoDArrayPart2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/bin/twoDArrayPart3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayList/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayList/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayList/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayList/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayList/bin/julyEleven/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayList/bin/julyThirteen/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayList/bin/sheet1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/computerNetwork/BellmanFordAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/computerNetwork/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/computerNetwork/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/euclidean/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/greedyAlgorithm/ActivitySelection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/heap/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/heap/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/nQueensProblem/NQueensProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/sudukoSolver/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/bin/ticTacToe/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/bin/books/Books.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/bin/database/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/bin/libraryManagementSystem/DefaultData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/bin/libraryManagementSystem/Hompages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/bin/libraryManagementSystem/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/bin/users/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryManagementSystem/src/books/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/libraryManagementSystem/src/books/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/doublyLinkedList/Dll$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/doublyLinkedList/Dll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/CircularLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/CircularLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/DLL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/DLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/LL$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/linkedList/ReverseLL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/singllyLinkedList/Sll$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/bin/singllyLinkedList/Sll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/doublyLinkedList/Dll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/linkedList/CircularLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/linkedList/DLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/linkedList/LL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/linkedList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/linkedList/ReverseLL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/singllyLinkedList/Sll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/abstraction/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/abstraction/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/abstraction/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/aggregationRelationship/College.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/aggregationRelationship/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/aggregationRelationship/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/compositionRelationship/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/compositionRelationship/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/compositionRelationship/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/inheritance/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/inheritance/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/inheritance/E.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/inheritance/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/inheritance1/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/inheritance1/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/innerClass/Main$Karan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/innerClass/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/innerClass/Outer$1LocalInnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/innerClass/Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/innerClass/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/julyTwenty/D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/julyTwenty/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/julyTwenty/S.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/julyTwenty/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/pack1/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/pack1/ClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/pack1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/pack2/ClassC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/pack2/ClassD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/polymorphism/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/polymorphism/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/polymorphism/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/staticAndFinalKeyword/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/staticAndFinalKeyword/StaticKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/superAndThisKeyword/Karan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/superAndThisKeyword/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/superAndThisKeyword/Student1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/superAndThisKeyword/SuperKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/superAndThisKeyword/ThisKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/temp/Temp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/bin/temp/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/bin/assendingPriorityQueue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/bin/circularQueue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/bin/simpleQueue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/bin/simpleQueuelinkedList/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/bin/simpleQueuelinkedList/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/arithematicOperators/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/forLoop/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/fourNovember/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/homeWorkSixToNineDec/EightDec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/homeWorkSixToNineDec/NineDec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/homeWorkSixToNineDec/SevenDec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/homeWorkSixToNineDec/SixDec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/literals/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/mayEighteen/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/operator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/operators/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/operators/Operators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/pack1/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/recursion1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/sixNov/NewHospital.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/sixNov/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/stringLiterals/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/twentyFiveMarch/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/twentyFiveMarch/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/twentySevenOctober/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/twentySixMarch/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/twentySixMarch/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/bin/unaryOperator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/arithematicOperators/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/forLoop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/fourNovember/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/homeWorkSixToNineDec/EightDec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/homeWorkSixToNineDec/NineDec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/homeWorkSixToNineDec/SevenDec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/homeWorkSixToNineDec/SixDec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/literals/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/mayEighteen/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/operator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/operators/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/operators/Operators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/pack1/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/recursion1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/sixNov/NewHospital.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/sixNov/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/stringLiterals/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/twentyFiveMarch/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/twentySevenOctober/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/twentySixMarch/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricr/src/unaryOperator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/arrayAssignmentPart1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/arrayAssignmentPart2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/bubbleSort/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/conditionalAssignmentPart3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/conditionalStatementAssignment1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/conditionalStatementAssignmentPart2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/hollowPaternAssignmentPart1ByWhileLoop/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/hollowPaternAssignmentPart2ByWhileLoop/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/insertionSort/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/mergeSort/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/methodAssignment/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/methodsCreationPracticeByArgumentsAndParametersAssignment/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/miscellaneous/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/practiceSheetProblems/VariableDeclarationWithDatatype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/recursionAssignment1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/recursionAssignment2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/selectionSort/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/starPaternAssignmentPart1ByWhileLoop/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/starPaternAssignmentPart2ByWhileLoop/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/starPatternPart1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/starPatternPart1/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/starPatternPart2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/starPatternPart2/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/stringPart1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/stringPart2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/switchStatementAssignmentPart1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/bin/variablesAndDatatype/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/arrayAssignmentPart1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/arrayAssignmentPart2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/bubbleSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/conditionalAssignmentPart3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/conditionalStatementAssignment1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/conditionalStatementAssignmentPart2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/hollowPaternAssignmentPart1ByWhileLoop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/hollowPaternAssignmentPart2ByWhileLoop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/insertionSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/mergeSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/methodAssignment/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/methodsCreationPracticeByArgumentsAndParametersAssignment/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/miscellaneous/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/practiceSheetProblems/VariableDeclarationWithDatatype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/recursionAssignment1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/recursionAssignment2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/selectionSort/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/starPaternAssignmentPart1ByWhileLoop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/starPaternAssignmentPart2ByWhileLoop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/starPatternPart1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/starPatternPart1/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/starPatternPart2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/starPatternPart2/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/stringPart1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/stringPart2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/switchStatementAssignmentPart1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricrAssignments/src/variablesAndDatatype/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/bin/stack/CustomStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/bin/stack/DynamicStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/bin/stack/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/bin/stack1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/bin/stackArray/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/bin/stackArrayList/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/bin/stackLinkedList/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stack/bin/stackLinkedList/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/bin/string/Constructors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/bin/string/JuneThirty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/bin/string/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/bin/stringBuffer/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/src/string/Constructors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/src/string/JuneThirty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/src/string/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/src/stringBuffer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/Anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/CountOccurance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/Intersection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/LinearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/MedianOfArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/MirrorString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/OptimisedBubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/RemoveDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/SubString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/TourMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/collegeProblems/UnionOfArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/julEighteen/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/prefixSum/EquilibriumSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/prefixSum/LandOfProgrammers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/stack/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/stack/MountainPeak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/stack/ReverseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/stack/StonePile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tnpCollege/bin/stack/paindromeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/avl/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/avl/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/bstInsertion/BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/bstInsertion/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/burnTree/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/burnTree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/flatenBstToSortedLL/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/flatenBstToSortedLL/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/flattenLL/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/flattenLL/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/inorderPreorderSuccessor/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/inorderPreorderSuccessor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/kPathSum/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/kPathSum/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/kthLargestAndSmallest/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/kthLargestAndSmallest/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/kthLargestAndSmallest/UsingMorris$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/kthLargestAndSmallest/UsingMorris.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/lca/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/lca/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/mergeTwoBst/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/mergeTwoBst/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/morrisTraversal/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/morrisTraversal/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/preorderBST/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/preorderBST/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/tree/BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/tree/BinarySearchTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/tree/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/tree/CollectionTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/tree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/tree/Tree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/tree/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/treeCreation/Tree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/treeCreation/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/twoSum/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/twoSum/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/validateBst/Main$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/bin/validateBst/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/tree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/CalculateAPowB.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/CalculateAPowB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/CeilingOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/CeilingOfNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/CountSetBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/CountSetBits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/EvenOrOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/EvenOrOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/FibonacciSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/FibonacciSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/FindIthBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/FindIthBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/FindUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/FindUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/FloorOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/FloorOfNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/NQueensProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/NQueensProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/NthMagicNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/NthMagicNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/NumberOfDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/NumberOfDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/PascalTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/PowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/PowerOfTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/PrimeNumberLessThanN.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/PrimeNumberLessThanN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/ResetIthBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/ResetIthBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/SetIthBitTo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/SetIthBitTo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/SudukoSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/SudukoSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/TowerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codes/XOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/misc/XOR.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="32VYYfp6CEuG8l1Q0Q5wGp9SuAZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AVLTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiameterOfTheTree.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27b21b33-3257-4f86-8937-7aa86732c12a" name="Changes" comment="" />
+      <created>1757507257266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757507257266</updated>
+    </task>
+    <servers />
+  </component>
+</project>
