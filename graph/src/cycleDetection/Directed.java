@@ -26,7 +26,7 @@ public class Directed
     {
         HashSet<Integer> v = new HashSet<>();
         HashSet<Integer> recStack = new HashSet<>();
-        for(Integer i : g.map.keySet())
+        for(Integer i : g.neigh.keySet())
         {
             if(helper(g,v,recStack,i))
             {
@@ -42,7 +42,7 @@ public class Directed
         if(v.contains(curr)) return false;
         v.add(curr);
         recStack.add(curr);
-        for(Integer i : g.map.get(curr))
+        for(Integer i : g.neigh.get(curr))
         {
             if (helper(g, v,recStack, i)) return true;
         }

@@ -6,12 +6,12 @@ import java.util.HashSet;
 
 public class DirectedGraph
 {
-    public HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
+    public HashMap<Integer, ArrayList<Integer>> neigh = new HashMap<>();
     public void add(int src, int dest)
     {
-        map.putIfAbsent(src,new ArrayList<>());
-        map.putIfAbsent(dest,new ArrayList<>());
-        if(!map.get(src).contains(dest)) map.get(src).add(dest);
+        neigh.putIfAbsent(src,new ArrayList<>());
+        neigh.putIfAbsent(dest,new ArrayList<>());
+        if(!neigh.get(src).contains(dest)) neigh.get(src).add(dest);
     }
 
     public void dfs(int s)
@@ -29,7 +29,7 @@ public class DirectedGraph
 
         visited.add(s);
         System.out.print(s+" ");
-        for(Integer i : map.getOrDefault(s,new ArrayList<>()))
+        for(Integer i : neigh.getOrDefault(s,new ArrayList<>()))
         {
             dfsHelper(i,visited);
         }
@@ -37,11 +37,10 @@ public class DirectedGraph
 
     public void print()
     {
-        for(Integer i : map.keySet())
+        for(Integer i : neigh.keySet())
         {
-            System.out.println(i+" -> " +map.getOrDefault(i,new ArrayList<>()));
+            System.out.println(i+" -> " + neigh.getOrDefault(i,new ArrayList<>()));
         }
 
     }
-
 }
