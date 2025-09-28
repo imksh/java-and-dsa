@@ -8,10 +8,10 @@ public class UndirectedWeightedGraph
 {
     public static class Edge
     {
-        public int src;
-        public int dest;
+        public String src;
+        public String dest;
         public int weight;
-        public Edge(int src,int dest,int weight)
+        public Edge(String src,String dest,int weight)
         {
             this.src=src;
             this.dest=dest;
@@ -20,43 +20,49 @@ public class UndirectedWeightedGraph
 
         @Override
         public String toString() {
-            return "{ Source: "+src+" Weight: "+weight +" Dist: "+dest+" }";
+            return "{ Source: "+src+" Weight: "+weight +" Dest: "+dest+" }";
         }
     }
-    public HashMap<Integer, ArrayList<Edge>> map = new HashMap<>();
-    public HashSet<Integer> set = new HashSet<>();
-    public void add(int src, int dest, int weight)
+    public HashMap<String, ArrayList<Edge>> neigh = new HashMap<>();
+    public void add(String src, String dest, int weight)
     {
-        map.putIfAbsent(src,new ArrayList<>());
-        map.putIfAbsent(dest,new ArrayList<>());
-        set.add(src);
-        set.add(dest);
+        neigh.putIfAbsent(src,new ArrayList<>());
+        neigh.putIfAbsent(dest,new ArrayList<>());
         Edge e = new Edge(src,dest,weight);
         boolean exists = false;
-        for (Edge edge : map.get(src)) {
-            if (edge.dest == dest) {
+        for (Edge edge : neigh.get(src)) {
+            if (edge.dest.equals(dest)) {
                 exists = true;
                 break;
             }
         }
-        if (!exists) map.get(src).add(e);
+        if (!exists) neigh.get(src).add(e);
+        exists=false;
+        for (Edge edge : neigh.get(dest)) {
+            if (edge.dest.equals(src)) {
+                exists = true;
+                break;
+            }
+        }
+        e = new Edge(dest,src,weight);
+        if (!exists) neigh.get(dest).add(e);
     }
 
-    public void dfs(int s)
+    public void dfs(String s)
     {
-        HashSet<Integer> visited = new HashSet<>();
+        HashSet<String> visited = new HashSet<>();
         System.out.print("Start: ");
         dfsHelper(s,visited);
         System.out.println();
 
     }
 
-    private void dfsHelper(int s, HashSet<Integer> visited)
+    private void dfsHelper(String s, HashSet<String> visited)
     {
         if(visited.contains(s)) return;
-        System.out.println(s);
+        System.out.print(s + " ");
         visited.add(s);
-        for(Edge e : map.getOrDefault(s,new ArrayList<>()))
+        for(Edge e : neigh.getOrDefault(s,new ArrayList<>()))
         {
             dfsHelper(e.dest,visited);
         }
@@ -64,10 +70,10 @@ public class UndirectedWeightedGraph
 
     public void print()
     {
-        for(Integer i : map.keySet())
+        for(String i : neigh.keySet())
         {
             System.out.print(i+" -> ");
-            System.out.println(map.getOrDefault(i,new ArrayList<>()));
+            System.out.println(neigh.getOrDefault(i,new ArrayList<>()));
         }
 
     }

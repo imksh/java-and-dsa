@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class DirectedWeightedGraph
+public class UndirectedGraph
 {
     public static class Edge
     {
@@ -20,17 +20,14 @@ public class DirectedWeightedGraph
 
         @Override
         public String toString() {
-            return "{ Source: "+src+" Weight: "+weight +" Dist: "+dest+" }";
+            return "{ Source: "+src+" Weight: "+weight +" Dest: "+dest+" }";
         }
     }
     public HashMap<Integer, ArrayList<Edge>> neigh = new HashMap<>();
-    public HashSet<Integer> set = new HashSet<>();
     public void add(int src, int dest, int weight)
     {
         neigh.putIfAbsent(src,new ArrayList<>());
         neigh.putIfAbsent(dest,new ArrayList<>());
-        set.add(src);
-        set.add(dest);
         Edge e = new Edge(src,dest,weight);
         boolean exists = false;
         for (Edge edge : neigh.get(src)) {
@@ -40,6 +37,15 @@ public class DirectedWeightedGraph
             }
         }
         if (!exists) neigh.get(src).add(e);
+        exists=false;
+        for (Edge edge : neigh.get(dest)) {
+            if (edge.dest == src) {
+                exists = true;
+                break;
+            }
+        }
+        e = new Edge(dest,src,weight);
+        if (!exists) neigh.get(dest).add(e);
     }
 
     public void dfs(int s)
@@ -54,7 +60,7 @@ public class DirectedWeightedGraph
     private void dfsHelper(int s, HashSet<Integer> visited)
     {
         if(visited.contains(s)) return;
-        System.out.println(s);
+        System.out.print(s + " ");
         visited.add(s);
         for(Edge e : neigh.getOrDefault(s,new ArrayList<>()))
         {

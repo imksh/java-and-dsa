@@ -1,7 +1,7 @@
 package algorithms;
 
 import graph.DirectedWeightedGraph;
-import graph.DirectedWeightedGraph.Edge;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -32,9 +32,9 @@ public class Bellmanford
         
         for(int i=0;i<v-1;i++)
         {
-            for(Integer x : g.map.keySet())
+            for(Integer x : g.neigh.keySet())
             {
-                ArrayList<DirectedWeightedGraph.Edge> edges = g.map.get(x);
+                ArrayList<DirectedWeightedGraph.Edge> edges = g.neigh.get(x);
                 for(DirectedWeightedGraph.Edge e : edges) {
                     int updated = dist.get(e.src) + e.weight;
 
@@ -45,9 +45,9 @@ public class Bellmanford
             }
         }
 
-        for(Integer x : g.map.keySet())
+        for(Integer x : g.neigh.keySet())
         {
-            ArrayList<DirectedWeightedGraph.Edge> edges = g.map.get(x);
+            ArrayList<DirectedWeightedGraph.Edge> edges = g.neigh.get(x);
             for(DirectedWeightedGraph.Edge e : edges) {
                 if (dist.get(e.dest) != Integer.MAX_VALUE && (dist.get(e.src) + e.weight) < dist.get(e.dest)) {
                     System.out.println("No shortest path");
